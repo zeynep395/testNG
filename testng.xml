@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/ismailefe/IdeaProjects/testNGdtproject/runclasses.xml"><classes/></test></suite>
+
+<suite name="All Test Suite" verbose="1" >
+<listeners>
+
+    <listener class-name="dt_project.utilities.Listeners"></listener>
+
+</listeners>
+
+
+<test verbose="2" preserve-order="true"
+      name="/Users/ismailefe/IdeaProjects/testNGdtproject/src/test/java/dt_project/tests/ListenersTest2.java">
+    <classes>
+        <class name="dt_project.tests.ListenersTest2">
+            <methods>
+                <include name="test1"/>
+                <include name="test2"/>
+                <include name="test3"/>
+                <include name="test4"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>

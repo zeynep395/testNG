@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Blue Rental Car Project" verbose="1" >
+    <test name="Regression Test"   >
+        <packages>
+            <package name="dt_project.*" /> <!-- This will run every packages that has @Test annotation -->
+        </packages>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
